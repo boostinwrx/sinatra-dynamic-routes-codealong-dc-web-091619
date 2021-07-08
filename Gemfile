@@ -11,7 +11,7 @@ gem 'sinatra'
 gem 'thin'
 
 group :test, :development do
-  gem 'capybara'
+  gem 'capybara', '>= 3.29.0'
   gem 'pry'
   gem 'rack-test'
   gem 'rspec'
