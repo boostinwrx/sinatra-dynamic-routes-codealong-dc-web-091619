@@ -7,7 +7,7 @@ gem 'rake'
 gem 'require_all'
 gem 'rubocop'
 gem 'shotgun'
-gem 'sinatra'
+gem 'sinatra', '>= 2.2.0'
 gem 'thin'
 
 group :test, :development do
