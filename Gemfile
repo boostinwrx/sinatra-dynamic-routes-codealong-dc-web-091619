@@ -13,6 +13,6 @@ gem 'thin'
 group :test, :development do
   gem 'capybara'
   gem 'pry'
-  gem 'rack-test'
+  gem 'rack-test', '>= 2.0.0'
   gem 'rspec'
 end
